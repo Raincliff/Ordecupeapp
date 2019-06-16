@@ -1,7 +1,6 @@
 package ordecupe.android.principal.seguridad;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,7 +14,6 @@ import android.widget.Toast;
 
 import ordecupe.android.bean.ClienteBean;
 import ordecupe.android.dao.ClienteDao;
-import ordecupe.android.principal.Cuenta;
 import ordecupe.android.principal.LoginPrincipal;
 import ordecupe.android.principal.Principal;
 import ordecupe.android.principal.R;
@@ -39,8 +37,8 @@ public class Registro extends Fragment implements View.OnClickListener{
         TXTNOM=(EditText)rootView.findViewById(R.id.TXTNOM);
         TXTAPE=(EditText)rootView.findViewById(R.id.TXTAPE);
         TXTDIR=(EditText)rootView.findViewById(R.id.TXTDIR);
-        TXTTEL=(EditText)rootView.findViewById(R.id.TXTTEL);
-        BTNINI=(Button)rootView.findViewById(R.id.BTNREG);
+        TXTTEL=(EditText)rootView.findViewById(R.id.TXTCOL);
+        BTNINI=(Button)rootView.findViewById(R.id.BTNCONT);
         BTNINI.setOnClickListener(this);
         BTNVOLVER=(Button)rootView.findViewById(R.id.BTN_VOLVER);
         BTNVOLVER.setOnClickListener(this);
