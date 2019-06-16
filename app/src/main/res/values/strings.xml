@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kichay</string>
+    <string name="title_activity_alertas">Alertas</string>
+    <string name="title_activity_registro_ciudadano1">RegistroCiudadano1</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/menu_principal"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_home"
+        android:title="Principal"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_pedidos"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_ped"
+        android:title="Pedidos"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_ventas"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_ven"
+        android:title="Ventas"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_cliente"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_cli"
+        android:title="Clientes"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_account_admin"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_account"
+        android:title="Cuenta"
+        app:showAsAction="ifRoom"
+        />
+</menu>

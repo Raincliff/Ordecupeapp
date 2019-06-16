@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/TXTTEL"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="TELEFONO"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTCLA"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="CLAVE"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTDIR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="DIRECCION"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTDNI"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="DNI"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTNOM"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="NOMBRE"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/LBLDATOS"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#515c5d"
+        android:gravity="center_vertical|center"
+        android:text="REGISTRO"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/TXTUSU"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="USUARIO"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTAPE"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="APELLIDO"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/BTNREG"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TXTTEL"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:width="200dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="GRABAR" />
+
+    <Button
+        android:id="@+id/BTN_VOLVER"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/BTNREG"
+        android:layout_alignEnd="@+id/TXTTEL"
+        android:layout_marginTop="0dp"
+        android:text="VOLVER" />
+
+</RelativeLayout>

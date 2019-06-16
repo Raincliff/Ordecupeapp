@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ordecupe.android.entidades.patrimonio.RegistroCiudadano1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="5dp">
+
+        <EditText
+            android:id="@+id/TXTNNOMBRE"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="25dp"
+            android:editable="false"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="RESEÑA HISTORICA"
+            android:inputType="textMultiLine"
+            android:singleLine="false" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/BTNNIMG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AGREGAR IMAGEN" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IMGLIBRO"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:id="@+id/BTNNGUARDAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="GUARDAR"/>
+        <TextView
+            android:id="@+id/BTNNVOLVER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Cancelar"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

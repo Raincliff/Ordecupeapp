@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_shop"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_shop"
+        android:title="Carrito"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_account"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_account"
+        android:title="Cuenta"
+        app:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ordecupe.android.entidades.pedidos.PedidosAdmin">
+    <item
+        android:id="@+id/ped_det"
+        android:title="Detalles"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ped_ace"
+        android:title="Aceptar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ped_rec"
+        android:title="Rechazar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ped_cli"
+        android:title="Contactar Cliente"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/SPDIST"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/SPTIPO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/SPTIPO"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="CONFIRMAR PEDIDO"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/BTNPRECIOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/SPDIST"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="155dp"
+        android:text="VER PRECIOS" />
+
+    <EditText
+        android:id="@+id/TXTDIRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp"
+        android:width="300dp"
+        android:height="35dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="DIRECCION" />
+
+    <Button
+        android:id="@+id/BTNENVIARPED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="ENVIAR" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Subtotal de Pedido:" />
+
+    <TextView
+        android:id="@+id/LBLSUB"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView19"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

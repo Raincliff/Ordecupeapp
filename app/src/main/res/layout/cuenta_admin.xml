@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66009688"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/LBLDATOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#66009688"
+        android:gravity="center"
+        android:text="USUARIO"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDATOSAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="DNI:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDNIAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="DIRECCION:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDIRECCIONAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="TELEFONO:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLTELEFONOAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/BTNACTUALIZARAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ddff"
+        android:text="ACTUALIZAR DATOS" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/BTNCERRARAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:text="CERRAR SESIÓN" />
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66009688"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/LBLD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#66009688"
+        android:gravity="center"
+        android:text="CLIENTE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDATOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="DNI:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="DIRECCION:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDIRECCION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="TELEFONO:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLTELEFONO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="954864862"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BTNACTUALIZAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF00DDFF"
+        android:text="ACTUALIZAR DATOS" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/BTNPEDIDO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#68e1f4"
+        android:text="VER PEDIDOS REALIZADOS" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/BTNVENTA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#68e1f4"
+        android:text="COMPRAS REALIZADAS" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/BTNCERRAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:text="CERRAR SESIÓN" />
+
+</LinearLayout>

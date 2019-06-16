@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/TXTMAR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="MARCA"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTPRE"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="PRECIO"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTMIN"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="STOCK MINIMO"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/LBLTIPOPRO"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="#515c5d"
+        android:gravity="center_vertical|center"
+        android:text="REGISTRAR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/TXTPRO"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="PRODUCTO"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/TXTSTO"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="STOCK ACTUAL"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/BTNNUEVOPRO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:width="200dp"
+        android:background="#00ddff"
+        android:text="GRABAR" />
+
+    <Button
+        android:id="@+id/BTNVOLPRO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:width="150dp"
+        android:background="#aaaaaa"
+        android:text="VOLVER" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="13dp"
+        android:text="REGISTRAR"
+        android:textColor="#f4f4f4"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

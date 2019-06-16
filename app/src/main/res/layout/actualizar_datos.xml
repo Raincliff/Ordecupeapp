@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66009688"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/LBLD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#66009688"
+        android:gravity="center"
+        android:text="DATOS"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDATOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="DNI:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LBLDNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="DIRECCION:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/TXTDIRACT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="DIRECCION"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66009688"
+        android:text="TELEFONO:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/TXTTELACT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="TELEFONO"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/BTNACT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF00DDFF"
+        android:text="GUARDAR DATOS" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/BTNVOLVER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:text="VOLVER" />
+
+</LinearLayout>
